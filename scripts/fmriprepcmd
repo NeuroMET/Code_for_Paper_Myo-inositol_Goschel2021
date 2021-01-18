@@ -1,0 +1,1 @@
+/usr/local/bin/singularity run --cleanenv -B ../license.txt:/opt/freesurfer/license.txt -B /media/drive_s/AG/AG-Floeel-Imaging/02-User/NEUROMET_BIDS/NeuroMET:/work ../fmriprep-20.1.1.simg -t rest --nthreads 6 --omp-nthreads 3 --mem-mb 32855 -v --fs-no-reconall --resource-monitor --write-graph /work /work/derivatives/fmriprep participant
