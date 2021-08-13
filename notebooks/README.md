@@ -1,8 +1,6 @@
 # 2. Preprocessing pipeline for resting state functional MRI data
 
-Resting state functional MRI data which were acquired using a 7T whole-body Magnetom MRI system (Siemens Healthineers, Erlangen, Germany) were prepocessed using the standard preprocessing pipeline of *fMRIPrep* 20.1.1 (@fmriprep1; @fmriprep2; RRID:SCR_016216), which is based on *Nipype* 1.5.0 (@nipype1; @nipype2; RRID:SCR_002502).
-
-### The following preprocessing steps were performed:
+Resting state functional MRI data which were acquired using a 7T whole-body Magnetom MRI system (Siemens Healthineers, Erlangen, Germany) were prepocessed using the standard preprocessing pipeline of *fMRIPrep* 20.1.1 (@fmriprep1; @fmriprep2; RRID:SCR_016216), which is based on *Nipype* 1.5.0 (@nipype1; @nipype2; RRID:SCR_002502). The following preprocessing steps were performed.
 
 ## 2.1 Anatomical data preprocessing
 
