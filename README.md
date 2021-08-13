@@ -1,5 +1,16 @@
-# mIns_fMRI
-aaaaaaaa
+# THE 1H-MR SPECTROSCOPY GLIAL MARKER MYO-INOSITOL MEASURED AT 7T ACROSS THE ALZHEIMER’S DISEASE SPECTRUM
+Göschel et al., 2021
+
+## This repository contains the applied code for 
+1. Structural Magnetic Resonance Imaging
+  + Preprocessing using SPM12 (Reference) and FSL (Reference)
+  + Segmentation using FreeSurfer 7.1 (Reference)
+3. Resting state functional Magnetic Resonance Imaging
+  +
+##
+
+
+
 ## Preprocessing pipeline with fmriprep
 
 performed using *fMRIPrep* 20.1.1
