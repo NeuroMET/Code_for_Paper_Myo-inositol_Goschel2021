@@ -9,7 +9,7 @@ Göschel et al., 2021
 
 2. Resting state functional Magnetic Resonance Imaging
     + Preprocessing using `fMRIprep v20.1.1` (http://fmriprep.readthedocs.io) and `CONN Toolbox v20b` (www.nitrc.org/projects/conn, RRID:SCR_009550)
-    + Creation of the seed using `FSL` and normalization to standard space using `ANTsPy`
+    + Creation of the seed using `FSL` and normalization to standard space using `ANTsPy` (https://antspy.readthedocs.io/en/latest/)
     + Creation of binary mask using `
     + Extraction of connectivity values from the seed to the binary mask using `CONN Toolbox v20b`
 
