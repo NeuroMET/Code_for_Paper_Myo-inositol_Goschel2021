@@ -4,16 +4,16 @@ Göschel et al., 2021
 ## This repository contains the applied code for 
 
 1. Structural Magnetic Resonance Imaging
-    + Preprocessing using `SPM12` (Reference) and `FSL` (Reference)
-    + Segmentation using `FreeSurfer 7.1` (Reference)
+    + Preprocessing using `SPM12` (Wellcome Trust Centre for Neuroimaging, Institute of Neurology at University College London, UK; https://www.fil.ion.ucl.ac.uk/spm/) and `FSL` (FMRIB software library, University of Oxford, UK, https://www.fmrib.ox.ac.uk/fsl)
+    + Segmentation using `FreeSurfer 7.1` (https://surfer.nmr.mgh.harvard.edu/)
 
 2. Resting state functional Magnetic Resonance Imaging
-    + Preprocessing using `fMRIprep v20.1.1` and `CONN Toolbox v20b`
+    + Preprocessing using `fMRIprep v20.1.1` (http://fmriprep.readthedocs.io) and `CONN Toolbox v20b` (www.nitrc.org/projects/conn, RRID:SCR_009550)
     + Creation of the seed using `FSL` and normalization to standard space using `ANTsPy`
     + Creation of binary mask using `
     + Extraction of connectivity values from the seed to the binary mask using `CONN Toolbox v20b`
 
-3. Statistical analyses performed for the paper using `RStudio`
+3. Statistical analyses performed for the publication using `RStudio` (RStudio Team (2020). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA URL http://www.rstudio.com/)
 
 
 ## Preprocessing pipeline with fmriprep
