@@ -9,9 +9,10 @@ Laura Göschel, Ariane Fillmer, Andrea Dell’Orco, Jeanette Melin, Semiha Aydin
 
 2. Resting state functional Magnetic Resonance Imaging
     + Preprocessing using `fMRIprep v20.1.1` (http://fmriprep.readthedocs.io) and `CONN Toolbox v20b` (www.nitrc.org/projects/conn, RRID:SCR_009550)
-    + Creation of the seed using `FSL` and normalization to standard space using `ANTsPy` (https://antspy.readthedocs.io/en/latest/)
-    + Creation of binary mask using `
-    + Extraction of connectivity values from the seed to the binary mask using `CONN Toolbox v20b`
+    + Creation of the seed and normalization to standard space using `ANTsPy` (https://antspy.readthedocs.io/en/latest/)
+    + Creation of binary mask
+    + Creation of connectivity maps for seed-to-voxel connectivities using `CONN Toolbox v20b`
+    + Extraction of connectivity values 
 
 3. Statistical analyses using `RStudio` (RStudio Team (2020). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA URL http://www.rstudio.com/)
 
