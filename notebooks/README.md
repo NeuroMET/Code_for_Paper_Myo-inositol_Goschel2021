@@ -1,10 +1,10 @@
-## 2. Preprocessing pipeline for resting state functional MRI data
+# 2. Preprocessing pipeline for resting state functional MRI data
 
 Resting state functional MRI data which were acquired using a 7T whole-body Magnetom MRI system (Siemens Healthineers, Erlangen, Germany) were prepocessed using the standard preprocessing pipeline of *fMRIPrep* 20.1.1 (@fmriprep1; @fmriprep2; RRID:SCR_016216), which is based on *Nipype* 1.5.0 (@nipype1; @nipype2; RRID:SCR_002502).
 
-#The following preprocessing steps were performed:
+### The following preprocessing steps were performed:
 
-# 2.1 Anatomical data preprocessing
+## 2.1 Anatomical data preprocessing
 
 : A total of 1 T1-weighted (T1w) images were found within the input
 BIDS dataset.The T1-weighted (T1w) image was corrected for intensity non-uniformity (INU)
@@ -22,7 +22,7 @@ using brain-extracted versions of both T1w reference and the T1w template.
 The following template was selected for spatial normalization:
 *ICBM 152 Nonlinear Asymmetrical template version 2009c* [@mni152nlin2009casym, RRID:SCR_008796; TemplateFlow ID: MNI152NLin2009cAsym], 
 
-# 2.2 Functional data preprocessing
+## 2.2 Functional data preprocessing
 
 : For each of the 1 BOLD runs found per subject (across all
 tasks and sessions), the following preprocessing was performed.
