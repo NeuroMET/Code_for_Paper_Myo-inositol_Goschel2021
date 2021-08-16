@@ -11,7 +11,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "get the MRS voxel coordinates data from a CSV of RDAs headers, make a sphere in subject space centered on the voxel center and coregister it in MNI space"
+    "Extract the MRS voxel coordinates data from RDAs headers, copy them in a CSV file, create a sphere in subject space which is centered to the MRS voxel center and coregister it in MNI space (MNI152NLin2009cAsym)"
    ]
   },
   {
