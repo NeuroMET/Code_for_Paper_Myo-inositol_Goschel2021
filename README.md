@@ -10,9 +10,9 @@ This repository contains part of the code which was used in the given paper. Cod
 2. Resting state functional Magnetic Resonance Imaging [(go to directory)](https://github.com/NeuroMET/Code_for_Paper_Myo-inositol_Goschel2021/tree/main/notebooks)
     + Preprocessing using the standard pipeline from [`fMRIprep v20.1.1`](http://fmriprep.readthedocs.io) 
     + Smoothing, standard denoising and band pass filtering using [`CONN Toolbox v20b`](www.nitrc.org/projects/conn)(RRID:SCR_009550)
-    + Creation of the seed and normalization to standard space using [`ANTsPy`](https://antspy.readthedocs.io/en/latest/) [(got to Notebook)](https://github.com/NeuroMET/Code_for_Paper_Myo-inositol_Goschel2021/blob/main/notebooks/Seed_from_MRSvoxels)
+    + Creation of the seed and normalization to standard space using [`ANTsPy`](https://antspy.readthedocs.io/en/latest/) [(go to Notebook)](https://github.com/NeuroMET/Code_for_Paper_Myo-inositol_Goschel2021/blob/main/notebooks/Seed_from_MRSvoxels)
     + Creation of connectivity maps using [`CONN Toolbox v20b`](www.nitrc.org/projects/conn)
-    + Creation of binary mask (threshold > 0.3 in cognitively healthy) and extraction of seed-based connectivity [(got to Notebook)](https://github.com/NeuroMET/Code_for_Paper_Myo-inositol_Goschel2021/blob/main/notebooks/Seed-based_connectivities.ipynb)
+    + Creation of binary mask (threshold > 0.3 in cognitively healthy) and extraction of seed-based connectivity [(go to Notebook)](https://github.com/NeuroMET/Code_for_Paper_Myo-inositol_Goschel2021/blob/main/notebooks/Seed-based_connectivities.ipynb)
 
 3. Statistical analyses using [`RStudio`](http://www.rstudio.com/) (RStudio Team (2020). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA)
 
