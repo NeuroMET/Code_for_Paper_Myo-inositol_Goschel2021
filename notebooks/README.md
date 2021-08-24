@@ -1,11 +1,3 @@
-# 1 (Pre-)processing of structural MRI data
-
-## 1.1 Preprocessing using SPM12 and FSL
-The performed MP2Rage sequence results in various output images. The T1wUNI image provides optimal contrast in brain tissue, but its high background noise, caused by the high (7 T) magnetic field, causes trouble to widely used software packages. The denoised image (T1wDEN), on the other hand, provides a clean background but worse contrast in the brain area. Therefore, Statistical Parametric Mapping software 12 ([`SPM12`](https://www.fil.ion.ucl.ac.uk/spm/), Wellcome Trust Centre for Neuroimaging, Institute of Neurology at University College London, UK) was used for bias field correction and segmentation of the T1wUNI and T1wDEN images in gray matter, white matter and cerebrospinal fluid. Using [`FSL v6.0`](https://www.fmrib.ox.ac.uk/fsl) (FMRIB software library, University of Oxford, UK), these three segments were added up for each T1wUNI and T1wDEN T1w image resulting in two brain masks for each participant. After visual inspection, the individual brain mask, which showed a better fit (mask from either the T1wUNI or the T1wDEN image), was used to compose a final T1w image: The brain tissue was extracted from the bias field corrected T1wUNI image (has better contrast in brain tissue), and the skull and background from the T1wDEN (has better skull stripping). This procedure was necessary to improve the subsequent segmentation.
-
-## 1.2 Segmentation using FreeSurfer 7.1
-Segmented brain volumes of cortical and subcortical regions were then estimated by the widely used [`FreeSurfer 7.1`](https://surfer.nmr.mgh.harvard.edu/) image analysis suite (Fischl and Dale, 2000). For improved segmentation performance, the previously generated brain masks were provided to FreeSurfer replacing the brain mask generated during the FreeSufer skull stripping process. 
-
 # 2. (Pre-)processing of resting state functional MRI data
 
 ## 2.1 Preprocessing using fMRIprep v20.1.1
